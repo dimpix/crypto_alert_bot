@@ -1,0 +1,4 @@
+python-telegram-bot==20.3
+aiohttp==3.8.4
+SQLAlchemy==2.0.15
+psycopg2-binary==2.9.6
