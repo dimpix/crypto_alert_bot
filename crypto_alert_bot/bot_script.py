@@ -12,7 +12,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Get the bot token from environment variable
-TOKEN = os.environ.get('TOKEN')
+TOKEN = os.environ.get('7287078061:AAEysp3ggXl5_1rSWXG4d-TOKy5-evQYNc0')
 
 # DEX Screener API endpoint
 DEX_SCREENER_API = "https://api.dexscreener.com/latest/dex/tokens/"
