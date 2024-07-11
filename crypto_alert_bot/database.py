@@ -20,7 +20,7 @@ class Token(Base):
     last_price = Column(Float)
 
 # Use the DATABASE_URL provided by Railway
-database_url = os.environ.get('DATABASE_URL', 'sqlite:///crypto_alert_bot.db')
+database_url = os.environ.get('DATABASE_URL', 'postgresql://postgres:XSylzGXNXZoySAkkUJtkEZlevGFwNFsa@roundhouse.proxy.rlwy.net:38802/railway')
 if database_url.startswith("postgres://"):
     database_url = database_url.replace("postgres://", "postgresql://", 1)
 
